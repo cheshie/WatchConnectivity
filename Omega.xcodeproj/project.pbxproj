@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A001FABF2A0B70F100F0DEA5 /* Omega.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001FABE2A0B70F100F0DEA5 /* Omega.swift */; };
+		A001FAC12A0B70F100F0DEA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001FAC02A0B70F100F0DEA5 /* ContentView.swift */; };
+		A001FAC32A0B70F300F0DEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001FAC22A0B70F300F0DEA5 /* Assets.xcassets */; };
+		A001FAC62A0B70F300F0DEA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001FAC52A0B70F300F0DEA5 /* Preview Assets.xcassets */; };
+		A001FAD32A0B712400F0DEA5 /* Aloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001FAD22A0B712400F0DEA5 /* Aloro.swift */; };
+		A001FAD52A0B712400F0DEA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001FAD42A0B712400F0DEA5 /* ContentView.swift */; };
+		A001FAD72A0B712600F0DEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001FAD62A0B712600F0DEA5 /* Assets.xcassets */; };
+		A001FADA2A0B712600F0DEA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001FAD92A0B712600F0DEA5 /* Preview Assets.xcassets */; };
+		A001FADD2A0B712600F0DEA5 /* Aloro.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A001FAD02A0B712400F0DEA5 /* Aloro.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0ABAC012A0CC83D009CAC58 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0ABAC002A0CC83D009CAC58 /* WidgetKit.framework */; };
+		A0ABAC032A0CC83D009CAC58 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0ABAC022A0CC83D009CAC58 /* SwiftUI.framework */; };
+		A0ABAC062A0CC83D009CAC58 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ABAC052A0CC83D009CAC58 /* Widget.swift */; };
+		A0ABAC092A0CC83F009CAC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0ABAC082A0CC83F009CAC58 /* Assets.xcassets */; };
+		A0ABAC0B2A0CC83F009CAC58 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A0ABAC072A0CC83D009CAC58 /* Widget.intentdefinition */; };
+		A0ABAC0C2A0CC83F009CAC58 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A0ABAC072A0CC83D009CAC58 /* Widget.intentdefinition */; };
+		A0ABAC0F2A0CC83F009CAC58 /* Widget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A0ABABFE2A0CC83D009CAC58 /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FE1563282A33B4900021734B /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1563272A33B4900021734B /* Shared.swift */; };
+		FE1563292A33B5770021734B /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1563272A33B4900021734B /* Shared.swift */; };
+		FE15632A2A33B5780021734B /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1563272A33B4900021734B /* Shared.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A001FADB2A0B712600F0DEA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A001FAB32A0B70F100F0DEA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A001FACF2A0B712400F0DEA5;
+			remoteInfo = "WatchConToWatchWA Watch App";
+		};
+		A0ABAC0D2A0CC83F009CAC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A001FAB32A0B70F100F0DEA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0ABABFD2A0CC83D009CAC58;
+			remoteInfo = HourWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A001FAE12A0B712600F0DEA5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A001FADD2A0B712600F0DEA5 /* Aloro.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ABAC102A0CC83F009CAC58 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A0ABAC0F2A0CC83F009CAC58 /* Widget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A001FABB2A0B70F100F0DEA5 /* Omega.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omega.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001FABE2A0B70F100F0DEA5 /* Omega.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omega.swift; sourceTree = "<group>"; };
+		A001FAC02A0B70F100F0DEA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A001FAC22A0B70F300F0DEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A001FAC52A0B70F300F0DEA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A001FAD02A0B712400F0DEA5 /* Aloro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aloro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001FAD22A0B712400F0DEA5 /* Aloro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aloro.swift; sourceTree = "<group>"; };
+		A001FAD42A0B712400F0DEA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A001FAD62A0B712600F0DEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A001FAD92A0B712600F0DEA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0ABABFE2A0CC83D009CAC58 /* Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0ABAC002A0CC83D009CAC58 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A0ABAC022A0CC83D009CAC58 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A0ABAC052A0CC83D009CAC58 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
+		A0ABAC072A0CC83D009CAC58 /* Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Widget.intentdefinition; sourceTree = "<group>"; };
+		A0ABAC082A0CC83F009CAC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0ABAC0A2A0CC83F009CAC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F1B7F22A0EF0F10071F36C /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget.entitlements; sourceTree = "<group>"; };
+		A0F5CA272A333FAA00A4BA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FE1563272A33B4900021734B /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A001FAB82A0B70F100F0DEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001FACD2A0B712400F0DEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ABABFB2A0CC83D009CAC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ABAC032A0CC83D009CAC58 /* SwiftUI.framework in Frameworks */,
+				A0ABAC012A0CC83D009CAC58 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A001FAB22A0B70F100F0DEA5 = {
+			isa = PBXGroup;
+			children = (
+				A0F1B7F22A0EF0F10071F36C /* Widget.entitlements */,
+				A001FABD2A0B70F100F0DEA5 /* Omega */,
+				A001FAD12A0B712400F0DEA5 /* Aloro */,
+				A0ABAC042A0CC83D009CAC58 /* Widget */,
+				A0ABABFF2A0CC83D009CAC58 /* Frameworks */,
+				A001FABC2A0B70F100F0DEA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A001FABC2A0B70F100F0DEA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A001FABB2A0B70F100F0DEA5 /* Omega.app */,
+				A001FAD02A0B712400F0DEA5 /* Aloro.app */,
+				A0ABABFE2A0CC83D009CAC58 /* Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A001FABD2A0B70F100F0DEA5 /* Omega */ = {
+			isa = PBXGroup;
+			children = (
+				A001FABE2A0B70F100F0DEA5 /* Omega.swift */,
+				A001FAC02A0B70F100F0DEA5 /* ContentView.swift */,
+				FE1563272A33B4900021734B /* Shared.swift */,
+				A001FAC22A0B70F300F0DEA5 /* Assets.xcassets */,
+				A001FAC42A0B70F300F0DEA5 /* Preview Content */,
+			);
+			path = Omega;
+			sourceTree = "<group>";
+		};
+		A001FAC42A0B70F300F0DEA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A001FAC52A0B70F300F0DEA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A001FAD12A0B712400F0DEA5 /* Aloro */ = {
+			isa = PBXGroup;
+			children = (
+				A0F5CA272A333FAA00A4BA8A /* Info.plist */,
+				A001FAD22A0B712400F0DEA5 /* Aloro.swift */,
+				A001FAD42A0B712400F0DEA5 /* ContentView.swift */,
+				A001FAD62A0B712600F0DEA5 /* Assets.xcassets */,
+				A001FAD82A0B712600F0DEA5 /* Preview Content */,
+			);
+			path = Aloro;
+			sourceTree = "<group>";
+		};
+		A001FAD82A0B712600F0DEA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A001FAD92A0B712600F0DEA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0ABABFF2A0CC83D009CAC58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0ABAC002A0CC83D009CAC58 /* WidgetKit.framework */,
+				A0ABAC022A0CC83D009CAC58 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0ABAC042A0CC83D009CAC58 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				A0ABAC052A0CC83D009CAC58 /* Widget.swift */,
+				A0ABAC072A0CC83D009CAC58 /* Widget.intentdefinition */,
+				A0ABAC082A0CC83F009CAC58 /* Assets.xcassets */,
+				A0ABAC0A2A0CC83F009CAC58 /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A001FABA2A0B70F100F0DEA5 /* Omega */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A001FAC92A0B70F300F0DEA5 /* Build configuration list for PBXNativeTarget "Omega" */;
+			buildPhases = (
+				A001FAB72A0B70F100F0DEA5 /* Sources */,
+				A001FAB82A0B70F100F0DEA5 /* Frameworks */,
+				A001FAB92A0B70F100F0DEA5 /* Resources */,
+				A001FAE12A0B712600F0DEA5 /* Embed Watch Content */,
+				A09584CB2A32068800F5FF63 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A001FADC2A0B712600F0DEA5 /* PBXTargetDependency */,
+			);
+			name = Omega;
+			productName = WatchConToWatch;
+			productReference = A001FABB2A0B70F100F0DEA5 /* Omega.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A001FACF2A0B712400F0DEA5 /* Aloro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A001FADE2A0B712600F0DEA5 /* Build configuration list for PBXNativeTarget "Aloro" */;
+			buildPhases = (
+				A001FACC2A0B712400F0DEA5 /* Sources */,
+				A001FACD2A0B712400F0DEA5 /* Frameworks */,
+				A001FACE2A0B712400F0DEA5 /* Resources */,
+				A0ABAC102A0CC83F009CAC58 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0ABAC0E2A0CC83F009CAC58 /* PBXTargetDependency */,
+			);
+			name = Aloro;
+			productName = "WatchConToWatchWA Watch App";
+			productReference = A001FAD02A0B712400F0DEA5 /* Aloro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0ABABFD2A0CC83D009CAC58 /* Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0ABAC132A0CC840009CAC58 /* Build configuration list for PBXNativeTarget "Widget" */;
+			buildPhases = (
+				A0ABABFA2A0CC83D009CAC58 /* Sources */,
+				A0ABABFB2A0CC83D009CAC58 /* Frameworks */,
+				A0ABABFC2A0CC83D009CAC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Widget;
+			productName = HourWidgetExtension;
+			productReference = A0ABABFE2A0CC83D009CAC58 /* Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A001FAB32A0B70F100F0DEA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A001FABA2A0B70F100F0DEA5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A001FACF2A0B712400F0DEA5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A0ABABFD2A0CC83D009CAC58 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A001FAB62A0B70F100F0DEA5 /* Build configuration list for PBXProject "Omega" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A001FAB22A0B70F100F0DEA5;
+			productRefGroup = A001FABC2A0B70F100F0DEA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A001FABA2A0B70F100F0DEA5 /* Omega */,
+				A001FACF2A0B712400F0DEA5 /* Aloro */,
+				A0ABABFD2A0CC83D009CAC58 /* Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A001FAB92A0B70F100F0DEA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001FAC62A0B70F300F0DEA5 /* Preview Assets.xcassets in Resources */,
+				A001FAC32A0B70F300F0DEA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001FACE2A0B712400F0DEA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001FADA2A0B712600F0DEA5 /* Preview Assets.xcassets in Resources */,
+				A001FAD72A0B712600F0DEA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ABABFC2A0CC83D009CAC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ABAC092A0CC83F009CAC58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A09584CB2A32068800F5FF63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A001FAB72A0B70F100F0DEA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1563282A33B4900021734B /* Shared.swift in Sources */,
+				A001FAC12A0B70F100F0DEA5 /* ContentView.swift in Sources */,
+				A001FABF2A0B70F100F0DEA5 /* Omega.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001FACC2A0B712400F0DEA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001FAD52A0B712400F0DEA5 /* ContentView.swift in Sources */,
+				A0ABAC0C2A0CC83F009CAC58 /* Widget.intentdefinition in Sources */,
+				FE15632A2A33B5780021734B /* Shared.swift in Sources */,
+				A001FAD32A0B712400F0DEA5 /* Aloro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ABABFA2A0CC83D009CAC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1563292A33B5770021734B /* Shared.swift in Sources */,
+				A0ABAC0B2A0CC83F009CAC58 /* Widget.intentdefinition in Sources */,
+				A0ABAC062A0CC83D009CAC58 /* Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A001FADC2A0B712600F0DEA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A001FACF2A0B712400F0DEA5 /* Aloro */;
+			targetProxy = A001FADB2A0B712600F0DEA5 /* PBXContainerItemProxy */;
+		};
+		A0ABAC0E2A0CC83F009CAC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0ABABFD2A0CC83D009CAC58 /* Widget */;
+			targetProxy = A0ABAC0D2A0CC83F009CAC58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A001FAC72A0B70F300F0DEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A001FAC82A0B70F300F0DEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A001FACA2A0B70F300F0DEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Omega/Preview Content\"";
+				DEVELOPMENT_TEAM = 4HTEC659ZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securing.Omega;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A001FACB2A0B70F300F0DEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Omega/Preview Content\"";
+				DEVELOPMENT_TEAM = 4HTEC659ZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securing.Omega;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A001FADF2A0B712600F0DEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aloro/Aloro.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aloro/Preview Content\"";
+				DEVELOPMENT_TEAM = 4HTEC659ZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aloro/Info.plist;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.securing.Omega;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securing.Omega.Aloro;
+				PRODUCT_NAME = Aloro;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		A001FAE02A0B712600F0DEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aloro/Aloro.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aloro/Preview Content\"";
+				DEVELOPMENT_TEAM = 4HTEC659ZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aloro/Info.plist;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.securing.Omega;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securing.Omega.Aloro;
+				PRODUCT_NAME = Aloro;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		A0ABAC112A0CC83F009CAC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Widget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HTEC659ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HourWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securing.Omega.Aloro.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		A0ABAC122A0CC83F009CAC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Widget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HTEC659ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HourWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securing.Omega.Aloro.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A001FAB62A0B70F100F0DEA5 /* Build configuration list for PBXProject "Omega" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001FAC72A0B70F300F0DEA5 /* Debug */,
+				A001FAC82A0B70F300F0DEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A001FAC92A0B70F300F0DEA5 /* Build configuration list for PBXNativeTarget "Omega" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001FACA2A0B70F300F0DEA5 /* Debug */,
+				A001FACB2A0B70F300F0DEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A001FADE2A0B712600F0DEA5 /* Build configuration list for PBXNativeTarget "Aloro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001FADF2A0B712600F0DEA5 /* Debug */,
+				A001FAE02A0B712600F0DEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0ABAC132A0CC840009CAC58 /* Build configuration list for PBXNativeTarget "Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0ABAC112A0CC83F009CAC58 /* Debug */,
+				A0ABAC122A0CC83F009CAC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A001FAB32A0B70F100F0DEA5 /* Project object */;
+}
